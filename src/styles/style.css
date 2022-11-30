@@ -1,0 +1,31 @@
+body {
+    display: flex;
+    flex-direction: column;
+    font-family: sans-serif;
+}
+
+.placeholder {
+    text-align: center;
+    color: #D8D8D8;
+}
+
+header {
+    background-color: #182747;
+}
+
+.slider {
+    display: block;
+    box-shadow: 0 16px 32px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    padding: 20px;
+    margin: 1rem 7rem 2rem 7rem;
+    text-align: center;
+    background-color: white;
+}
+
+#img-slider img {
+    width: 70%;
+    max-height: 400px;
+    object-fit: cover;
+    object-position: center;
+}
